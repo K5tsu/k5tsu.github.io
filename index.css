@@ -9,14 +9,14 @@ body {
 .plumBlossom {
     color: #ff758f;
     text-align: center;
-    font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+    font-family: Dotgothic16;
     margin-top: 210px;
 }
 
 .mountHua {
     color: #ff758f;
     text-align: center;
-    font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+    font-family: dotgothic16;
 }
 
 .word {
@@ -57,5 +57,6 @@ div {
     -webkit-animation-direction: alternate;
     animation-direction: alternate;
 }
+
 
 
