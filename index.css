@@ -30,43 +30,6 @@ div {
 
 @keyframes color {
     0% {
-        bgcolor: #fdc5f5
-    }
-
-    30% {
-        bgcolor: #f7aef8
-    }
-
-    60% {
-        bgcolor: #b388eb
-    }
-
-    90% {
-        bgcolor: #8093f1
-    }
-
-    100% {
-        bgcolor: #72ddf7
-    }
-}
-
-.word {
-    -webkit-animation: color 20s infinite;
-    animation: color 10s infinite;
-    -webkit-animation-direction: alternate;
-    animation-direction: alternate;
-}
-
-a {
-    text-decoration: none;
-}
-
-a visited {
-    text-decoration: none;
-}
-
-@keyframes color {
-    0% {
         color: #fdc5f5
     }
 
@@ -94,25 +57,34 @@ a visited {
     animation-direction: alternate;
 }
 
+a {
+    text-decoration: none;
+}
+
+a visited {
+    text-decoration: none;
+}
+
+
 @keyframes bgcolor {
     0% {
-        color: #e5e7eb
+        background-color: #e5e7eb
     }
 
     30% {
-        color: #ccd0d6
+        background-color: #ccd0d6
     }
 
     60% {
-        color: #b3b7be
+        background-color: #b3b7be
     }
 
     90% {
-        color: #999ea5
+        background-color: #999ea5
     }
 
     100% {
-        color: #80868d
+        background-color: #80868d
     }
 }
 
