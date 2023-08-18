@@ -30,23 +30,23 @@ div {
 
 @keyframes color {
     0% {
-        color: #fdc5f5
+        bgcolor: #fdc5f5
     }
 
     30% {
-        color: #f7aef8
+        bgcolor: #f7aef8
     }
 
     60% {
-        color: #b388eb
+        bgcolor: #b388eb
     }
 
     90% {
-        color: #8093f1
+        bgcolor: #8093f1
     }
 
     100% {
-        color: #72ddf7
+        bgcolor: #72ddf7
     }
 }
 
