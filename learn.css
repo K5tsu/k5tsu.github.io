@@ -1,0 +1,59 @@
+body {
+    background-color: #e5e7eb;
+    min-height: 100vh;
+}
+
+.plumBlossom {
+    color: #ff758f;
+    text-align: center;
+    font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+    margin-top: 210px;
+    margin-right: 300px;
+}
+
+.mountHua {
+    color: #ff758f;
+    text-align: center;
+    font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+    margin-right: 215px;
+}
+
+.word {
+    color: #ccd6f6;
+    text-align: center;
+    font-family: vcr osd mono;
+}
+
+div {
+    text-align: center;
+}
+
+@keyframes color {
+    0% {
+        color: #fdc5f5
+    }
+
+    30% {
+        color: #f7aef8
+    }
+
+    60% {
+        color: #b388eb
+    }
+
+    90% {
+        color: #8093f1
+    }
+
+    100% {
+        color: #72ddf7
+    }
+}
+
+.word {
+    -webkit-animation: color 20s infinite;
+    animation: color 10s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
+
