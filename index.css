@@ -58,5 +58,7 @@ div {
     animation-direction: alternate;
 }
 
-
+a {
+    text-decoration: none;
+}
 
