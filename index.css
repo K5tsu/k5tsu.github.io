@@ -31,23 +31,23 @@ div {
 
 @keyframes color {
     0% {
-        color: #fdc5f5
+        color: #e5e7eb
     }
 
     30% {
-        color: #f7aef8
+        color: #ccd0d6
     }
 
     60% {
-        color: #b388eb
+        color: #b3b7be
     }
 
     90% {
-        color: #8093f1
+        color: #999ea5
     }
 
     100% {
-        color: #72ddf7
+        color: #80868d
     }
 }
 
@@ -64,4 +64,33 @@ a {
 
 a visited {
     text-decoration: none;
+}
+
+@keyframes bgcolor {
+    0% {
+        background-color: #fdc5f5
+    }
+
+    30% {
+        background-color: #f7aef8
+    }
+
+    60% {
+        background-color: #b388eb
+    }
+
+    90% {
+        background-color: #8093f1
+    }
+
+    100% {
+        background-color: #72ddf7
+    }
+}
+
+body {
+    -webkit-animation: bgcolor 20s infinite;
+    animation: bgcolor 10s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
 }
