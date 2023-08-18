@@ -1,6 +1,9 @@
 body {
     background-color: #e5e7eb;
     min-height: 100vh;
+    margin: auto;
+    max-width: 42rem;
+    margin: auto;
 }
 
 .plumBlossom {
