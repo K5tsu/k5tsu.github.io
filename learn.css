@@ -1,9 +1,24 @@
 body {
     background-color: #B9BFA2;
+    min-height: 100vh;
+    margin: auto;
+    max-width: 42rem;
 }
 
 .head {
     color: #4d3c60;
     font-family: dotgothic16;
+}
+
+
+a {
+    font-size: x-large;
+    text-decoration: none;
+    border: #4d3c60;
+    border-radius: 10px;
+
+}
+
+.container {
     text-align: center;
 }
